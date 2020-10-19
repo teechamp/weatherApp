@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
+body {
+  width: 100%;
+  height: 100%;
+  font-family: abel;
+  background-color: #111316;
+  /* background-image: url(../images/bg2.jpg);
+  background-attachment: fixed; */
+  position: relative;
+}
+.container {
+  background-color: rgba(212, 209, 209, 0.6);
+  margin: 5% auto; 
+  padding: 5% 0 0 0;
+  width: 40%;
+  height: fit-content;
+}
+
+#weather {
+    color: crimson;
+    font-size: larger;
+    
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    text-transform: capitalize;
+}
+
+.double{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.double p{
+    width:48%;
+}
+
+.card{
+    padding:0;
+}
+
+.fa{
+    color:#333;
+}
+
+
+    #bac{
+        background-image: url(../images/weda.jpg);
+        background-size: cover;
+    }
+
+    #foot{
+        background-color: cornsilk;
+    }
+
+
+
+
+
